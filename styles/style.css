@@ -29,6 +29,10 @@ button{
     flex-wrap: wrap;
     margin: 0 -15px;
 
+
+}
+.hero .row{
+    align-items: center;
 }
 .col-4{
     width: 33.3333%;
@@ -41,6 +45,9 @@ button{
 .hero-right{
     width: 53.3333%;
     padding: 0 15px;
+}
+.header{
+    padding-top: 35px;
 }
 .header .row{
     align-items: center;
@@ -56,16 +63,18 @@ button{
     margin: 0 22px;
 }
 .hero-title{
-    font-size: 54px;
-    font-weight: 700;
+    font-size: 53px;
+    font-weight: 600;
     line-height: 81px;
-    margin: 105px 0 25px 0;
+    margin-bottom: 25.4px ;
 
 }
 .hero-title span{
     background: -webkit-linear-gradient(#3EFFC0 , #18CA90);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-weight: 500;
+    position: relative;
 
 }
 .hero-info{
@@ -73,8 +82,22 @@ button{
     line-height: 33.6px;
     margin-bottom: 25.4px;
 }
-.hero-info span{
-    font-weight: 500;
+
+.hero-title span:before{
+    content: "";
+    width: 18px;
+    height: 8px;
+    position: absolute;
+    background-color: #F44545;
+    right: -18px;
+    bottom: 18px;
+}
+.feedback-form{
+    position: relative;
+
+}
+.hero .feedback-form {
+    margin: 0 60px 35px 0;
 }
 .feedback-input{
     height: 65px;
@@ -84,18 +107,26 @@ button{
     border-radius: 6px;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
-    margin-bottom: 35.47px;
+    margin-bottom: 36px;
+    width: 100%;
+}
 
-
+.feedback-btn{
+    width: 120px;
+    height: 53px;
+    font-size: 21px;
+    font-weight: 500;
+    border-radius: 6px;
+    line-height: 31px;
+    position: absolute;
+    background-color: #F44545;
+    color: white;
+    right: 6px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 
 }
-.feedback-btn{
-    position: absolute;
-    background-color: #e84747;
-    padding: 5px 10px;
-    color: white;
-
-
-
-
+.apps-img:first-child{
+    margin-right: 30px;
 }
