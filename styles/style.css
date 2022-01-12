@@ -169,7 +169,61 @@ button{
 .features{
     padding: 110px 0;
 }
+.features .row{
+    align-items: center;
+}
+.cards-img{
+    background: url("../images/features-cards.png") no-repeat center/cover;
+    height: 655px;
+    object-position: right;
+    width: 55%;
+    padding: 0 15px;
+    margin-bottom: 143px;
+}
+.cards-text{
+    width: 45%;
+    padding: 0 15px;
+}
 
+.features-title{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 67px;
+    align-items: flex-end;
+
+}
+.features-text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    margin-bottom: 16px;
+}
+.features-desc{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28.8px;
+}
+.features-text span{
+    font-weight: 600;
+}
+.features-link{
+    display: flex;
+
+}
+.features-btn{
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    padding: 15px 40px;
+}
+.features-question{
+    color: #FF4D4D;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28.8px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
 .rtl{
     direction: rtl;
 }
