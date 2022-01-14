@@ -190,6 +190,7 @@ button{
     font-weight: 600;
     line-height: 67px;
     align-items: flex-end;
+    margin-bottom: 20px;
 
 }
 .features-text{
@@ -202,6 +203,7 @@ button{
     font-weight: 500;
     font-size: 18px;
     line-height: 28.8px;
+    margin-bottom: 20px;
 }
 .features-text span{
     font-weight: 600;
@@ -215,6 +217,14 @@ button{
     color: white;
     border-radius: 6px;
     padding: 15px 40px;
+    border: 1px solid black;
+}
+.features-btn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: 500;
+
 }
 .features-question{
     color: #FF4D4D;
@@ -223,7 +233,20 @@ button{
     line-height: 28.8px;
     margin-top: 15px;
     margin-left: 25px;
+    cursor: pointer;
 }
+
+.discover-item{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.checkmark{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
 .rtl{
     direction: rtl;
 }
