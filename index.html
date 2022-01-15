@@ -6,9 +6,10 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Title</title>
+    <link rel="stylesheet" href="./styles/owl.carousel.min.css">
+    <link rel="stylesheet" href="./styles/owl.theme.default.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 </head>
 <body>
 <header class="header">
@@ -60,7 +61,7 @@
 </section>
 <section class="clients">
     <div class="container">
-    <nav class="clients-apps">
+    <nav class="clients-apps owl-carousel owl-theme">
             <img src="./images/google.png">
             <img src="./images/avast.png">
             <img src="./images/ebay.png">
@@ -73,7 +74,7 @@
     <div class="container">
         <div class="row">
             <div class="cards-img"></div>
-            <div class="cards-text">
+            <div class="cards-text" data-aos="fade-left">
             <h3 class="features-title">A complete software solution for you.</h3>
                 <p class="features-text">The source of powerful qorld and making future sure. Its a  straight forward software.
                 </p>
@@ -91,7 +92,7 @@
 <section class="discover">
     <div class="container discover-container">
         <div class="row">
-            <div class="col-6">
+            <div class="col-6" data-aos="fade-right">
                 <h3 class="features-title">Discover & growth with analysis.</h3>
                 <p class="features-desc">Software with new dimensions. The better future
                     and information about the virtual world.
@@ -130,7 +131,7 @@
                     <img src="./images/serving%20sec.png">
                 </div>
             </div>
-            <div class="serving-desc">
+            <div class="serving-desc" data-aos="fade-left">
                 <h2 class="features-title">Serving Information with security.</h2>
                 <p class="features-text">The source of powerful qorld and making future sure. Its a  straight forward software. Paired with dynamic image of the actual tool for you.
                 </p>
@@ -143,13 +144,13 @@
 <section class="get-our-software">
     <div class="container get-our-software-container">
         <div class="row">
-            <div class="col-6">
+            <div class="col-6" data-aos="fade-right">
                 <div class="features-title">Get our software</div>
                 <p class="features-text">The source of powerful qorld and making your future sure. It’s a  straight forward software for you.
                 </p>
-                <p class="features-text">The source of powerful qorld and making future sure. Its a  straight forward software. Paired with dynamic image of the actual tool and the performance.
+                <p class="features-text-bottom">The source of powerful qorld and making future sure. Its a  straight forward software. Paired with dynamic image of the actual tool and the performance.
                 </p>
-                <a  href="#" alt="download-button" class="download-btn">Download</a>
+                <a  href="#" alt="download-button" class="download-btn">Download now</a>
             </div>
             <div class="col-6">
                 <img src="./images/notebook.png" class="get-our-img">
@@ -179,9 +180,32 @@
         <div class="row">
             <div class="col-4">
                 <div class="pricing-items">
-                    <h4 class="pricing-item-title"></h4>
-                    <p class="pricing-item-subtitle"></p>
+                    <h4 class="pricing-item-title">BASIC PLAN</h4>
+                    <p class="pricing-item-subtitle">0$</p>
                 </div>
+                <div class="basic-card">
+                    <div class="plan-desc">
+                        <img src="./images/checkmark.png">
+                        <p class="plan-items-news">Limited Acess Library</p>
+                    </div>
+                    <p class="plan-status">Yes</p>
+                    <div class="plan-desc">
+                        <img src="./images/checkmark.png">
+                        <p class="plan-items-news">100+ HTML UI Elements</p>
+                    </div>
+                    <p class="plan-status">No</p>
+                    <div class="plan-desc">
+                        <img src="./images/checkmark.png">
+                        <p class="plan-items-news">Hotline Support 24/7</p>
+                    </div>
+                    <p class="plan-status">No</p>
+                    <div class="plan-desc">
+                        <img src="./images/checkmark.png">
+                        <p class="plan-items-news">API & extension support</p>
+                    </div>
+                    <p class="plan-status">No</p>
+                </div>
+                <a class="plan-btn" src="#">Buy Plan</a>
 
             </div>
             <div class="col-4"></div>
@@ -216,6 +240,14 @@
         </nav>
     </div>
 </footer>
+
+
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./js/jquery.js"></script>
+<script src="./js/owl.carousel.min.js"></script>
+<script src="./js/script.js"></script>
 </body>
 </html>
 
