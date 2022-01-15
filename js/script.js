@@ -19,7 +19,7 @@ range.addEventListener('input', (e) => {
     const left = value * (num_width / max) - num_label_width / 2 + scale(value, min, max, 10, -10);
 
     label.style.left = `${left}px`;
-    label.innerHTML = value;
+    label.innerHTML = "$"+value;
 });
 
 // From StackOverflow: https://stackoverflow.com/questions/10756313/javascript-jquery-map-a-range-of-numbers-to-another-range-of-numbers

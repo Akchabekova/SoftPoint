@@ -349,6 +349,7 @@ button{
     justify-content: center;
     align-items: center;
     position: relative;
+    margin-bottom: 70px;
 }
 .switcher-subtitle{
     font-size: 18px;
@@ -360,6 +361,7 @@ button{
     position:absolute;
     right: 461px;
     bottom: 6px;
+
 }
 .pricing-plan{
     padding: 80px 0;
@@ -488,21 +490,22 @@ button{
 }
 
 input[type=range] {
-    width: 300px;
+    width: 100%;
     margin: 18px 0;
     -webkit-appearance: none;
 }
 
 input[type=range] + label {
-    background-color: #fff;
+    background-color: #282323;
     border-radius: 4px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     padding: 5px 0;
     position: absolute;
     top: -25px;
-    left: 110px;
+    left: 547px;
     text-align: center;
     width: 80px;
+    color: white;
 }
 
 input[type=range]:active {
@@ -511,7 +514,7 @@ input[type=range]:active {
 
 input[type=range]::-webkit-slider-runnable-track {
     animate: 0.2s;
-    background-color: purple;
+    background-color: #85FED6;
     border-radius: 4px;
     cursor: pointer;
     width: 100%;
@@ -521,7 +524,7 @@ input[type=range]::-webkit-slider-runnable-track {
 input[type=range]::-webkit-slider-thumb {
     background: #ffffff;
     border-radius: 50%;
-    border: 1px solid purple;
+    border: 1px solid #85FED6;
     cursor: pointer;
     height: 20px;
     width: 20px;
@@ -534,7 +537,7 @@ input[type=range]:active::-webkit-slider-runnable-track {
 }
 input[type=range]::-moz-range-track {
     animate: 0.2s;
-    background-color: purple;
+    background-color: #85FED6;
     border-radius: 4px;
     cursor: pointer;
     width: 100%;
@@ -543,14 +546,14 @@ input[type=range]::-moz-range-track {
 input[type=range]::-moz-range-thumb {
     background: #ffffff;
     border-radius: 50%;
-    border: 1px solid purple;
+    border: 1px solid #85FED6;
     cursor: pointer;
     height: 20px;
     width: 20px;
 }
 input[type=range]::-ms-track {
     animate: 0.2s;
-    background-color: purple;
+    background-color: #85FED6;
     border-radius: 4px;
     cursor: pointer;
     width: 100%;
@@ -559,7 +562,7 @@ input[type=range]::-ms-track {
 input[type=range]::-ms-thumb {
     background: #ffffff;
     border-radius: 50%;
-    border: 1px solid purple;
+    border: 1px solid #85FED6;
     cursor: pointer;
     height: 20px;
     width: 20px;
@@ -568,10 +571,10 @@ input[type=range]::-ms-thumb {
 }
 
 input[type=range]:active::-ms-fill-lower {
-    background: purple;
+    background: #85FED6;
 }
 
 input[type=range]:active::-ms-fill-upper {
-    background: purple;
+    background: #85FED6;
 }
 /*RANGE*/
