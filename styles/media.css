@@ -1,23 +1,32 @@
 @media(max-width:992px){
     .container{
-        max-width: 767px ;}
+        max-width: 740px ;}
     .col-7{
         width: 100%;
     }
     .col-5{
         width: 100%;
     }
+    .header-signup{
+        padding: 11px 13px;
+    }
     .hero-title {
-        font-size: 45px;
+        font-size: 40px;
         margin-top: 20px;
     }
     .hero-title span:before{
-        bottom: 15px;
+        bottom: 12px;
     }
     .hero-info{
         text-align: center;
-        font-size: 19px;
-        line-height: 38.6px;
+        font-size: 17px;
+        line-height: 24.6px;
+    }
+    .hero-img{
+        max-width: 90%;
+    }
+    .hero .feedback-form {
+    margin: -5px 60px 0 60px;
     }
     .hero-info span{
         font-weight: 500;
@@ -26,7 +35,7 @@
         text-align: center;
     }
     .cards-img{
-        width: 100%;
+        width: 85%;
         height: 768px;
     }
     .cards-text{
@@ -34,13 +43,12 @@
 
     }
     .features-text{
-        font-size: 19px;
-        line-height: 31.8px;
+        font-size: 17px;
+        line-height: 28.5px;
     }
     .features-title{
-        text-align: center;
         margin-bottom: 20px;
-        font-size: 38px;
+        font-size: 34px;
         font-weight: 500;
     }
     .features-link{
@@ -56,7 +64,7 @@
         font-size: 19px;
     }
     .features-desc{
-        font-size: 21px;
+        font-size: 20px;
     }
     .checkmark{
         height: 25px;
@@ -67,6 +75,7 @@
     }
     .serving-container{
         height: 100%;
+        padding: 30px 0;
     }
     .serving-img{
        width: 100%;
@@ -84,16 +93,34 @@
         width: 50%;
     }
     .get-our-img{
-        max-width: 80%;
+        max-width: 70%;
         position: absolute;
-        top: -41px;
-        left: 308px;
+        top: 0;
+        left: 296px;
     }
     .get-our-software{
         padding: 0;
     }
+    .pricing-item-title{
+        margin: 18px;
+    }
+    .plan-items-news{
+        font-size: 14px;
+    }
+    .pricing-item-subtitle {
+        font-weight: 400;
+        font-size: 33px;
+        line-height: 10px;
+    }
+    .plan-desc {
+        margin: 12px 0px 7px 3px;
+    }
     .pricing-plan{
         padding: 30px 0;
+    }
+    .plan-items{
+        margin-right: 15px;
+        width: 215px;
     }
     .pricing-title {
         font-size: 38px;
@@ -106,21 +133,148 @@
     .switch-box{
         margin-bottom: 23px;
     }
+    .save-up-img{
+        right: 259px;
+        bottom: 4px;
+    }
+    .switcher-subtitle{
+        font-size: 17px;
+        line-height: 13px;
+        font-weight: 500;
 
+}
+    .input[type=range]+label{
+        left: 327px;
+    }
 
+    .input[type=range] {
+        margin: 20px 0 24px;
+    }
+   .save-up{
+       margin-bottom: 47px;
+   }
+   .plan-desc{
+       margin: 15px 64px 19px 5px
+   }
+   .plan-btn{
+       margin: 14px 14px;
+       padding: 5px 48px;
+   }
 
+    .pricing-item-subtitle {
+        font-weight: 500;
+        font-size: 38px;
+        line-height: 11px;
+    }
+    .footer-item-desc {
+        line-height: 22.6px;
+    }
+    .footer-caption {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 3px;
+        margin-bottom: 16px;
+    }
+
+    .footer-news {
+        line-height: 23.6px;
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
 }
 
 
 
 
 
-
-
-
-
-
 @media(max-width: 766px){
+    .container{
+        max-width: 540px;
+    }
+    .header-signup {
+        padding: 6px 3px;
+    }
+    .hero-title {
+        font-size: 29px;
+        margin: 18px 0 17px 0;
+    }
+    .hero-title span:before {
+        bottom: 8px;
+    }
+    .hero-info{
+    font-size: 15px;
+    line-height: 22.6px;
+    }
+    .hero .feedback-form {
+        margin: 3px 69px 0 69px;
+    }
+    .feedback-input{
+        height: 61px;
+        font-size: 17px;
+    }
+
+    .feedback-btn {
+        width: 114px;
+        height: 49px;
+        font-size: 19px;
+        font-weight: 400;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

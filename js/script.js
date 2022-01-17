@@ -42,7 +42,7 @@ $(document).ready(function(){
               items: 3
           },
           320:{
-              items: 1
+              items: 3
           }
       }
   });
