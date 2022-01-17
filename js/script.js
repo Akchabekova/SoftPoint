@@ -30,16 +30,16 @@ const scale = (num, in_min, in_max, out_min, out_max) => {
 
 $(document).ready(function(){
   $(".owl-carousel").owlCarousel({
-      items: 4,
+      items: 3,
       loop: true,
       margin: 40,
       dots: true,
       responsive: {
           1200: {
-              items: 4
+              items: 3
           },
           768:{
-              items: 2
+              items: 3
           },
           320:{
               items: 1
