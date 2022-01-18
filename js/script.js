@@ -47,3 +47,19 @@ $(document).ready(function(){
       }
   });
  });
+
+
+const myBurger = document.querySelector('.burger')
+const myMenu = document.querySelector('.menu')
+const menuItem = document.querySelectorAll('.menu-item')
+
+myBurger.addEventListener('click',() => {
+    myMenu.classList.toggle('open')
+})
+
+menuItem.forEach(oneItem => {
+    oneItem.addEventListener('click',() => {
+        myMenu.classList.remove('open')
+    })
+
+})
