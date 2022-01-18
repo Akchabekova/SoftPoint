@@ -39,10 +39,10 @@ $(document).ready(function(){
               items: 3
           },
           768:{
-              items: 3
+              items: 2
           },
           320:{
-              items: 3
+              items: 1
           }
       }
   });

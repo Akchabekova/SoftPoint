@@ -30,7 +30,10 @@ button{
     margin: 0 -15px;
     position: relative;
 }
-
+.burger{
+    color: red;
+    font-size: 18px;
+}
 .hero .row{
     align-items: center;
 }

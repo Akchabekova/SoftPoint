@@ -193,6 +193,20 @@
     }
     .header-signup {
         padding: 6px 3px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .menu-item{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .feedback-input {
+        height: 50px;
+    }
+    .feedback-btn {
+        width: 112px;
+        height: 46px;
+        font-size: 18px;
     }
     .hero-title {
         font-size: 29px;
@@ -201,6 +215,13 @@
     .hero-title span:before {
         bottom: 8px;
     }
+    .apps-img{
+        width: 20%;
+    }
+    .cards-img{
+        width: 100%;
+        height: 500px;
+    }
     .hero-info{
     font-size: 15px;
     line-height: 22.6px;
@@ -208,6 +229,7 @@
     .hero .feedback-form {
         margin: 3px 69px 0 69px;
     }
+
     .feedback-input{
         height: 61px;
         font-size: 17px;
@@ -219,67 +241,244 @@
         font-size: 19px;
         font-weight: 400;
     }
+    .features-title{
+    margin-bottom: 0;
+    font-size: 27px;
+    font-weight: 500;
+    }
+    .features-text {
+        font-size: 16px;
+        line-height: 24.5px;
+    }
+   .features-btn{
+       padding: 12px 32px;
+   }
+   .features-question{
+       font-size: 21px;
+   }
+    .get-our-software-container {
+        height: 478px;
+    }
+    .features-desc{
+        font-size: 18px;
+    }
+    .discover-item{
+        font-size: 17px;
+        margin-bottom: 8px;
+    }
 
+    .discover-img{
+        width: 100%
+    }
+    .serving-img{
+     width: 300px;
+    }
+    .rtl{
+        direction: inherit;
+    }
+    .features-text-bottom{
+        font-size: 17px;
+    }
+    .download-btn{
+        padding: 10px 14px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
+    .get-our-img {
+        top: 21px;
+        left: 207px;
+    }
+    .pricing-plan{
+        padding: 15px 0;
+    }
+    .pricing-title{
+        font-size: 32px;
+    }
+    .pricing-subtitle {
+        font-size: 16px;
+        line-height: 28.6px;
+        margin-bottom: 34px;
+    }
+    .switcher-before{
+        margin-right: 8px;
+        font-size: 18px;
+    }
+    .switcher-after{
+        margin-right: 8px;
+        font-size: 18px;
+    }
+    .switch {
+        width: 57px;
+        height: 31px;
+    }
+    .save-up {
+        margin-bottom: 40px
+    }
+    .switcher-subtitle {
+        font-size: 15px;
+    }
+    .save-up-img {
+        right: 167px;
+    }
+    input[type=range] + label{
+        left: 228px;
+        width: 75px;
+    }
+    .pricing-item-subtitle{
+        font-size: 36px;
+    }
+    .plan-desc {
+        margin: 11px 57px 17px 5px
+    }
+    .plan-btn {
+        margin: 13px 45px;
+        padding: 5px 34px;
+    }
+    .footer-container{
+        padding: 0;
+    }
+    .footer-caption{
+        line-height: inherit;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .footer-menu{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-item-desc{
+        margin-bottom: 15px;
+    }
 }
 @media(max-width: 576px) {
+    .container{
+        padding: 0 15px;
+    }
+    .hero-title {
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .hero-info {
+        font-size: 13px;
+    }
+    .feedback-btn {
+        width: 72px;
+        height: 30px;
+        font-size: 16px;
+    }
+    .hero .feedback-form {
+        margin: 0 10px 0 10px;
+    }
+
+    .feedback-input {
+        height: 56px;
+        font-size: 12px;
+    }
+    .apps-img{
+        width: 30%;
+    }
+    .cards-img {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 30px;
+    }
+    .features{
+        padding: 20px 0;
+    }
+    .features-title{
+        font-size: 19px;
+        line-height: 45px;
+    }
+    .features-text{
+        font-size: 14px;
+        line-height: 22.5px;
+    }
+    .features-btn {
+        font-weight: 400;
+        padding: 11px 21px;
+    }
+
+    .features-question{
+        font-size: 19px;
+    }
+    .features-desc{
+        font-size: 14px;
+    }
+    .discover-item {
+        font-size: 14px;
+        margin-bottom: 7px;
+    }
+    .features-pic{
+        width: 280px;
+        height: 250px;
+    }
+
+    .col-6.desc-download{
+        width: 100%;
+    }
+    .col-6.img-download{
+        width: 100%;
+    }
+    .get-our-img {
+        left: 45px;
+        top: 281px;
+        max-width: 300px;
+    }
+    .download-btn{
+        padding: 7px 13px;
+        font-size: 13px;
+    }
+    .features-text-bottom{
+        line-height: 26.8px;
+        margin-bottom: 23px;
+        font-size: 14px;
+    }
+    .pricing-title{
+        font-size: 26px;
+    }
+    .pricing-subtitle{
+        font-size: 13px;
+        margin-bottom: 17px;
+    }
+    .switcher-after{
+        font-size: 15px;
+    }
+    .switcher-before{
+        font-size: 15px;
+    }
+    .switcher-subtitle{
+        font-size: 13px;
+    }
+    .save-up-img{
+        right: 51px;
+    }
+    input[type=range] {
+
+        margin: 20px 0 45px 0;
+    }
+    input[type=range] + label {
+        left: 105px;
+    }
+    .pricing-item-title {
+        font-size: 19px;
+        line-height: 28px;
+        font-weight: 500;
+    }
+    .plan-btn {
+        margin: 11px 58px;
+    }
+    .sun-right-img{
+        bottom: 0;
+    }
+    .moon-right-img{
+        top: 332px;
+    }
+    .hero-title span:before {
+        bottom: 8px;
+        left: -159px;
+    }
+
+
+
+
 
 }
