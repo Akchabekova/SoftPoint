@@ -1,174 +1,228 @@
-@media(max-width:992px){
-    .container{
-        max-width: 740px ;}
-    .col-7{
+@media(max-width:992px) {
+    .container {
+        max-width: 740px;
+    }
+
+    .col-7 {
         width: 100%;
     }
-    .col-5{
+
+    .col-5 {
         width: 100%;
     }
-    .header-signup{
+
+    .header-signup {
         padding: 11px 13px;
     }
+
     .hero-title {
         font-size: 40px;
         margin-top: 20px;
     }
-    .hero-title span:before{
+
+    .hero-title span:before {
         bottom: 12px;
     }
-    .hero-info{
+
+    .hero-info {
         text-align: center;
         font-size: 17px;
         line-height: 24.6px;
     }
-    .hero-img{
+
+    .hero-img {
         max-width: 90%;
     }
+
     .hero .feedback-form {
-    margin: -5px 60px 0 60px;
+        margin: -5px 60px 0 60px;
     }
-    .hero-info span{
+
+    .hero-info span {
         font-weight: 500;
     }
-    .apps{
+
+    .apps {
         text-align: center;
     }
-    .cards-img{
-        width: 85%;
-        height: 768px;
+
+    .cards-img {
+        width: 600px;
+        height: 600px;
     }
-    .cards-text{
+
+    .cards-text {
         width: 100%;
 
     }
-    .features-text{
+    .features {
+        padding: 30px 0;
+    }
+    .features-text {
         font-size: 17px;
         line-height: 28.5px;
     }
-    .features-title{
+
+    .features-title {
         margin-bottom: 20px;
         font-size: 34px;
         font-weight: 500;
     }
-    .features-link{
+
+    .features-link {
         margin-top: 20px;
     }
-    .features-question{
+
+    .features-question {
         font-size: 24px;
     }
-    .col-6{
+
+    .col-6 {
         width: 100%;
     }
-    .discover-item{
+
+    .discover-item {
         font-size: 19px;
     }
-    .features-desc{
+
+    .features-desc {
         font-size: 20px;
     }
-    .checkmark{
+
+    .checkmark {
         height: 25px;
         width: 25px;
     }
-    .serving{
+
+    .serving {
         padding: 30px 0;
     }
-    .serving-container{
+
+    .serving-container {
         height: 100%;
         padding: 30px 0;
     }
-    .serving-img{
-       width: 100%;
+
+    .serving-img {
+        width: 100%;
         text-align: center;
         margin-bottom: 25px;
     }
-    .serving-desc{
+
+    .serving-desc {
         width: 100%;
 
     }
-    .col-6.desc-download{
+
+    .col-6.desc-download {
         width: 50%;
     }
-    .col-6.img-download{
+
+    .col-6.img-download {
         width: 50%;
     }
-    .get-our-img{
+
+    .get-our-img {
         max-width: 70%;
         position: absolute;
         top: 0;
         left: 296px;
     }
-    .get-our-software{
+
+    .get-our-software {
         padding: 0;
     }
-    .pricing-item-title{
+
+    .pricing-item-title {
         margin: 18px;
     }
-    .plan-items-news{
+
+    .plan-items-news {
         font-size: 14px;
     }
+
     .pricing-item-subtitle {
         font-weight: 400;
         font-size: 33px;
         line-height: 10px;
     }
+
     .plan-desc {
         margin: 12px 0px 7px 3px;
     }
-    .pricing-plan{
+
+    .pricing-plan {
         padding: 30px 0;
     }
-    .plan-items{
+
+    .plan-items {
         margin-right: 15px;
         width: 215px;
     }
+
     .pricing-title {
         font-size: 38px;
         font-weight: 500;
     }
+
     .features-text-bottom {
         font-size: 19px;
 
     }
-    .switch-box{
+
+    .switch-box {
         margin-bottom: 23px;
     }
-    .save-up-img{
+
+    .save-up-img {
         right: 259px;
         bottom: 4px;
     }
-    .switcher-subtitle{
+
+    .switcher-subtitle {
         font-size: 17px;
         line-height: 13px;
         font-weight: 500;
 
-}
-    .input[type=range]+label{
+    }
+
+    .input[type=range] + label {
         left: 327px;
     }
 
     .input[type=range] {
         margin: 20px 0 24px;
     }
-   .save-up{
-       margin-bottom: 47px;
-   }
-   .plan-desc{
-       margin: 15px 64px 19px 5px
-   }
-   .plan-btn{
-       margin: 14px 14px;
-       padding: 5px 48px;
-   }
+
+    .save-up {
+        margin-bottom: 47px;
+    }
+
+    .plan-desc {
+        margin: 15px 64px 19px 5px
+    }
+
+    .plan-btn {
+        margin: 17px 75px;
+        padding: 5px 48px;
+    }
+
+    input[type=range] + label {
+        left: 328px;
+
+    }
+
 
     .pricing-item-subtitle {
         font-weight: 500;
         font-size: 38px;
         line-height: 11px;
     }
+
     .footer-item-desc {
         line-height: 22.6px;
     }
+
     .footer-caption {
         font-size: 18px;
         font-weight: 500;
@@ -181,8 +235,8 @@
         font-size: 15px;
         margin-bottom: 8px;
     }
-}
 
+}
 
 
 
